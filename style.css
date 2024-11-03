@@ -1,0 +1,61 @@
+.container {
+	width: 30%;
+	margin: auto;
+}
+
+/* main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} */
+.content {
+	display: grid;
+	gap: 3%;
+	grid-template-columns: 3fr 1fr;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+#textmessage {
+	color: gray;
+}
+
+p {
+	text-align: center;
+	color: red;
+}
+
+/* input[type='checkbox'] {
+} */
+
+ul {
+	list-style: none;
+}
+/* #deletelist {
+	float: right;
+} */
+
+button {
+	width: 100%;
+	padding: 5px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+button:disabled {
+	background-color: #869e87;
+}
+
+#tasknew {
+	padding: 3px;
+	border-radius: 10px;
+}
